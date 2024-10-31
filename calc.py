@@ -19,9 +19,10 @@ def calculate_e():
     return e
 
 e = calculate_e()
+print(e)
 
 # format
 e_str = str(e).replace(".", "")
 e_str = e_str[1:]
 formatted = ' '.join(e_str[i:i+10] for i in range(0, len(e_str), 10))
-print(formatted)
+#print(formatted)
